@@ -1,0 +1,17 @@
+# Python environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+
+# Hardware/SDR logs
+*.log
+rtl_test_results/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
