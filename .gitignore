@@ -15,3 +15,8 @@ rtl_test_results/
 dist/
 build/
 *.egg-info/
+
+# Ignore raw signal data and ML models
+data/
+*.npy
+models/*.pkl

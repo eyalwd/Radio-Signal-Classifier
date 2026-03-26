@@ -10,12 +10,12 @@ from src.hardware import SDRInterface
 def build_dataset():
     # Define ground truth targets (Labels: Frequency in Hz)
     targets = {
-        "FM Radio": 91.8e6,
+        "FM_Radio": 91.8e6,
         "ADSB_AVIATION": 1090e6,
     }
 
     # Setup the path to save the data
-    save_dir = os.path.join("..", "data", "raw")
+    save_dir = os.path.join("data", "raw")
     os.makedirs(save_dir, exist_ok=True)
 
     # Initialize SDR interface
